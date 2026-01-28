@@ -1,0 +1,15 @@
+.lazy-image {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: 200px;
+  margin: 30px auto;
+  background-color: #f0f0f0;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.lazy-image.loaded {
+  opacity: 1;
+}
