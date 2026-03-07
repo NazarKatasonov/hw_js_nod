@@ -1,1 +1,10 @@
-console.log("це мій перший проект на node.js")
+import "./js/hw01.js";
+import "./js/hw02.js";
+import "./js/hw03.js";
+import "./js/hw05.js";
+import "./js/hw06.js";
+import "./js/hw07.js";
+import "./js/hw08.js";
+import "./js/hw09.js";
+import "./js/hw10.js";
+import "./js/hw11.js";

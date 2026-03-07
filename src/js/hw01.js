@@ -9,5 +9,5 @@ const galleryItems = [
     original: 'https://cdn.pixabay.com/photo/2011/05/01/00/20/container-1080_1280.jpg',
     description: 'Container',
   },
-=
+
 ];
