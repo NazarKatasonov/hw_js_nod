@@ -1,4 +1,4 @@
-// hw03.js
+
 const gameContainer = document.createElement("div");
 gameContainer.style.display = "flex";
 gameContainer.style.gap = "10px";
@@ -22,4 +22,4 @@ for (let i = 0; i < 5; i++) {
 
 setTimeout(() => {
     alert(`Гра закінчена! Ваш результат: ${score}`);
-}, 15000); // гра триває 15 секунд
+}, 15000);

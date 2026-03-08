@@ -1,16 +1,14 @@
-// hw06.js
 
-// Таймер 1 година
-let hourTime = 60; // хвилин
+let hourTime = 60; 
 const hourInterval = setInterval(() => {
     hourTime--;
     console.log(`Залишилось ${hourTime} хвилин`);
     if (hourTime === 30) alert("Залишилось менше половини часу!");
     if (hourTime <= 0) clearInterval(hourInterval);
-}, 60000); // кожна хвилина
+}, 60000); 
 
-// Таймер 30 секунд
-let secTime = 30 * 1000; // мілісекунди
+
+let secTime = 30 * 1000; 
 const secDisplay = document.createElement("p");
 document.body.appendChild(secDisplay);
 const startBtn = document.createElement("button");
@@ -29,5 +27,5 @@ startBtn.onclick = () => {
             secDisplay.textContent = "Час вийшов!";
             startBtn.disabled = false;
         }
-    }, 10); // оновлення кожні 10 мс
+    }, 10); 
 };

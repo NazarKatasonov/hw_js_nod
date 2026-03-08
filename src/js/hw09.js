@@ -1,4 +1,4 @@
-// hw05.js
+
 const contactApp = document.createElement("div");
 document.body.appendChild(contactApp);
 
